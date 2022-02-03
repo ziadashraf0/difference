@@ -227,7 +227,7 @@ export default function Home() {
     if (name === "") {
       alert("اكتب اسمك");
     } else {
-      window.location = `https://wa.me/+201007530276/?text=${msg + name}`;
+      window.location = `https://wa.me/+201021483230/?text=${msg + name}`;
     }
     console.log(msg);
   };
