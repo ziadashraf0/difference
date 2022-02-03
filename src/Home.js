@@ -334,7 +334,7 @@ export default function Home() {
           </Button>
         </div>
         <div style={{ display: "flex", marginTop: "10%", marginLeft: "2%" }}>
-          <Random text="@author ziad ashraf" />
+          <Random text="@author ziadshreet@gmail.com" />
         </div>
       </div>
     );
