@@ -113,14 +113,24 @@ export default function Home() {
         )}
         <span style={{ marginRight: "2%" }}>({person.info.price})</span>
         <b style={{ marginRight: "10%" }}>{person.count}</b>
-        <div style={{ flexDirection: "row", display: "flex" }}>
+        <div style={{ flexDirection: "row", display: "flex", marginTop: "1%" }}>
           <div style={{ marginRight: "20%" }}>
-            <Button onClick={add} variant="success" size="sm">
+            <Button
+              style={{ borderRadius: "50%" }}
+              onClick={add}
+              variant="success"
+              size="sm"
+            >
               +
             </Button>
           </div>
           <div style={{ height: "20%" }}>
-            <Button onClick={subtract} variant="danger" size="sm">
+            <Button
+              style={{ borderRadius: "50%" }}
+              onClick={subtract}
+              variant="danger"
+              size="sm"
+            >
               -
             </Button>
           </div>
@@ -163,14 +173,25 @@ export default function Home() {
         )}
         <span style={{ marginRight: "2%" }}>({person.info.price})</span>
         <b style={{ marginRight: "10%" }}>{person.count}</b>
-        <div style={{ flexDirection: "row", display: "flex" }}>
+        <div style={{ flexDirection: "row", display: "flex", marginTop: "1%" }}>
           <div style={{ marginRight: "20%" }}>
-            <Button onClick={add} variant="success" size="sm">
+            <Button
+              style={{ borderRadius: "50%" }}
+              className="btn"
+              onClick={add}
+              variant="success"
+              size="sm"
+            >
               +
             </Button>
           </div>
           <div style={{ height: "20%" }}>
-            <Button onClick={subtract} variant="danger" size="sm">
+            <Button
+              style={{ borderRadius: "50%" }}
+              onClick={subtract}
+              variant="danger"
+              size="sm"
+            >
               -
             </Button>
           </div>
@@ -303,7 +324,12 @@ export default function Home() {
             }}
             placeholder="اكتب اسمك"
           ></input>
-          <Button onClick={() => submit(name)} variant="primary" size="md">
+          <Button
+            style={{ borderRadius: "10%" }}
+            onClick={() => submit(name)}
+            variant="primary"
+            size="md"
+          >
             otlob
           </Button>
         </div>
